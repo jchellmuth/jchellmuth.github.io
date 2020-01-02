@@ -7,5 +7,5 @@ Head over to https://jchellmuth.github.io for
 <br/>
 <p align="center">
   <strong>website is under construction</strong><br/>
-  **stay tuned**
+  <strong>stay tuned</strong>
 </p>
