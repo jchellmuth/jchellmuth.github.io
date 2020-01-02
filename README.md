@@ -5,7 +5,7 @@ Head over to https://jchellmuth.github.io for
 - tutorial and teaching material
 - bio info
 <br/>
-<p align="center" font="bold">
-  **website is under construction**<br/>
+<p align="center">
+  <strong>website is under construction</strong><br/>
   **stay tuned**
 </p>
