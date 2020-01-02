@@ -1,6 +1,4 @@
-## Johannes C. Hellmuth
-#### Physician Scientist and Hematology/Oncology Fellow at the University of Munich
-
+## Johannes C. Hellmuth's website
 
 Head over to https://jchellmuth.github.io for
 - code from our recent publications
@@ -8,6 +6,6 @@ Head over to https://jchellmuth.github.io for
 - bio info
 <br/>
 <p align="center">
-  website is under construction<br/>
-  stay tuned
+  **website is under construction**<br/>
+  **stay tuned**
 </p>
