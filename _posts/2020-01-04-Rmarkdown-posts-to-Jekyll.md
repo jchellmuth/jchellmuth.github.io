@@ -62,6 +62,6 @@ git add .
 git commit -m "new post"
 git push origin master
 ```
-<br\>
-<br\>
+<br />
+<br />
 Please send me an email with any questions, comments or suggestions. 
