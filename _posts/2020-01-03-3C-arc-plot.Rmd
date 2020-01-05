@@ -2,7 +2,7 @@
 title: Plotting 3C data as arcs - a ggplot solution
 output:
   md_document:
-    variant: gfm
+    variant: markdown_github
     preserve_yaml: true
 ---
 
