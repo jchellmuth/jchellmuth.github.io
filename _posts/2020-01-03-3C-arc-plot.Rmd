@@ -8,7 +8,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_knit$set(base.dir = "/Users/jch/web/jchellmuth.github.io/", base.url = "/")
-knitr::opts_chunk$set(fig.path = "figure/")
+knitr::opts_chunk$set(fig.path = "images/")
 ```
 
 ## Introduction
