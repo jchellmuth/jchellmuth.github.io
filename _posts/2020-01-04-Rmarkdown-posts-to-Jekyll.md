@@ -8,6 +8,7 @@ This website is generated through Jekyll and hosted on Github Pages.
 I won't go into details about how to build your Jekyll website on Github because there is a ton of excellent documentation out there and you'll easily find many useful blog posts. The most important documentation to get you started is here:  
 - [Github Pages](https://help.github.com/en/github/working-with-github-pages)  
 - [Jekyll](https://jekyllrb.com/docs/) (including a quick start guide)<br />
+
 I personally think Github + Jekyll is a great place to host your personal website - even if you are not a professional coder.  
 
 As a physician scientist working in basic cancer biology, I mainly use the R environment for my research. I have long documented important analysis with Rmarkdowns that I knit to html or pdf files. Generating html or pdf files from Rmarkdowns is super easy in Rstudio - see [here](https://rmarkdown.rstudio.com) for documentation.  
