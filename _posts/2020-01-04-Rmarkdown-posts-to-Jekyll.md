@@ -11,6 +11,7 @@ I won't go into details about how to build your Jekyll website on Github because
 I personally think Github + Jekyll is a great place to host your personal website - even if you are not a professional coder.  
 
 As a physician scientist working in basic cancer biology, I mainly use the R environment for my research. I have long documented important analysis with Rmarkdowns that I knit to html or pdf files. Generating html or pdf files from Rmarkdowns is super easy in Rstudio - see [here](https://rmarkdown.rstudio.com) for documentation.  
+
 Now, if you want to share your Rmarkdown on your Github/Jekyll website, there are some small caveats that need to be addressed to make that work smoothly. Below, are two solutions depending on whether you want to upload html files or markdowns. The following steps and description assume you generate your content locally and the upload / push it your github repository. 
 
 ### Option 1: Uploading a complete / allinclusive html files
