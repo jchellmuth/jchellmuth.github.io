@@ -8,6 +8,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,fig.path = "../images/")
+knitr::opts_knit$set(base.url = "/")
 ```
 
 ## Introduction
@@ -67,7 +68,7 @@ dfsg$group <- paste0(dfsg$condition,dfsg$assay.name)
 ## Plots
 ### 3C arc plot
 The basic principle here is to use ggplots ``stat_smooth`` to plot a second degree polynomial regression line from the anchor over the midpoint to the fragment of interest genomic coordinates. Note that the interaction frequency at the anchor and the fragment are set to 0. The actual interaction frequency data is plotted to the midpoint.  
-```{r}
+```{r, 2020-01-03-3C-arc-plot}
 p <- ggplot(dfsg,aes(x=coord,y=mean.frequency,color=condition,group=group))+
   geom_line(stat="smooth",method = "lm",formula = y ~ poly(x, 2),
             se = FALSE,lineend="round",size=2,alpha=0.8)+
@@ -80,13 +81,13 @@ p
 
 ### 3C arc plot with errorbars
 If you like, you could add errorbars to this plot - depending on how many fragments you are looking at, this could get messy though. 
-```{r}
+```{r, 2020-01-03-3C-arc-plot-w-errorbar}
 p+geom_errorbar(dfsg %>% filter(point=="mid"),inherit.aes = F,size=0.5,
                 mapping = aes(x=coord,ymin=mean.frequency-sd.frequency,ymax=mean.frequency+sd.frequency,color=condition))
 ```
 ### 3C barplot with arcs
 Of course, 3C data can be represented as simple barplots. Here is a barplot where the 3C arcs are added in. Arcs are only represented for the most important condition. This could be useful, for example, when you have multiple conditions that would overcrowd the 3C arc plot above.
-```{r}
+```{r, 2020-01-03-3C-arc-plot-w-baplot}
 ggplot()+
   geom_line(dfsg %>% filter(condition=="control"),mapping=aes(x=coord,y=mean.frequency,color=condition,group=group),
             stat="smooth",method = "lm",formula = y ~ poly(x, 2),
