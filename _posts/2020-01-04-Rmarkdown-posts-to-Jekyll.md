@@ -54,8 +54,8 @@ knitr::opts_knit$set(base.dir = "/Users/jch/web/jchellmuth.github.io/", base.url
 knitr::opts_chunk$set(fig.path = "images/")
 ```
 After knitting, you should have your markdown (`.md`) in the `_posts` folder which is where I also keep the Rmarkdown (`.Rmd`). The images generate during that knit will be in your `images` folder. Feel free to check out my github website repository where I use this very setup to publish R code.  
-\\
-\\
+
+##### Push your post to github
 Assuming you are working on your Jekyll site and its content locally and have git set up, push the changes to your repository as usual:
 ``` {bash}
 git add .
