@@ -3,6 +3,9 @@
 title: Posting Rmarkdowns to Jekyll
 ---
 
+## Introduction
+This website is hosted by [Github Pages](https://help.github.com/en/github/working-with-github-pages)
+
 To go from Rmarkdown to Jekyll post:
 1. Knit the Rmarkdown to markdown (github variant)
  It is important to preserve
