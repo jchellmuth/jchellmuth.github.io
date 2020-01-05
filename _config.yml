@@ -38,9 +38,7 @@ header_pages:
   - pages/code.md
   - pages/publications.md
 
-  exclude:
-  - _drafts/
-  - *.Rmd
+exclude: ["_drafts","*.Rmd"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
