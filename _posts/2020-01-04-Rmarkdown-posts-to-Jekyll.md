@@ -21,7 +21,7 @@ The fix for the front matter issue is simple: open the html file in any editor a
 ``` {YAML}
 ---
 layout: post
-title:  "Plotting 3C data with ggplot"
+title:  Going from Rmarkdown to Jekyll
 date:   2020-01-03 21:56:01 +0100
 categories: code visualization
 ---
@@ -38,7 +38,8 @@ Going from an Rmarkdown to a regular markdown is simple enough in Rstudio. Howev
 The following front matter will knit your Rmarkdown to a markdown (specifically, the github variant) and carry over your YAML header by setting  `preserve_yaml: true`.
 ``` {YAML}
 ---
-title: Plotting 3C data as arcs - a ggplot solution
+layout: post
+title: Going from Rmarkdown to Jekyll
 output:
   md_document:
     variant: markdown_github
