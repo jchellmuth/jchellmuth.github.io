@@ -66,4 +66,4 @@ git push origin master
 ```
 <br />
 <br />
-Please send me an email with any questions, comments or suggestions. 
+Please feel free to email me with any questions, comments or suggestions and I'll be happy to post them.
