@@ -2,12 +2,13 @@
 title: Plotting 3C data as arcs - a ggplot solution
 output:
   md_document:
-    variant: markdown_github
+    variant: gfm
     preserve_yaml: true
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE,fig.path = "~/web/jchellmuth.github.io/images/")
+knitr::opts_chunk$set(echo = TRUE,fig.path = "../images/")
+knitr::opts_knit$set(base.url = "/")
 ```
 
 ## Introduction
