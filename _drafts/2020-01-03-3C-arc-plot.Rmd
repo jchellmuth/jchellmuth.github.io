@@ -7,7 +7,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE,fig.path = "../images/")
+knitr::opts_chunk$set(echo = TRUE,fig.path = "~/web/jchellmuth.github.io/images/")
 knitr::opts_knit$set(base.url = "/")
 ```
 
@@ -87,7 +87,7 @@ p+geom_errorbar(dfsg %>% filter(point=="mid"),inherit.aes = F,size=0.5,
 ```
 ### 3C barplot with arcs
 Of course, 3C data can be represented as simple barplots. Here is a barplot where the 3C arcs are added in. Arcs are only represented for the most important condition. This could be useful, for example, when you have multiple conditions that would overcrowd the 3C arc plot above.
-```{r, 2020-01-03-3C-arc-plot-w-baplot}
+```{r, 2020-01-03-3C-arc-plot-w-barplot}
 ggplot()+
   geom_line(dfsg %>% filter(condition=="control"),mapping=aes(x=coord,y=mean.frequency,color=condition,group=group),
             stat="smooth",method = "lm",formula = y ~ poly(x, 2),
