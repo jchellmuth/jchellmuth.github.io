@@ -7,7 +7,7 @@ categories: Jekyll website code
 This website is generated through Jekyll and hosted on Github Pages. 
 I won't go into details about how to build your Jekyll website on Github because there is a ton of excellent documentation out there and you'll easily find many useful blog posts. The most important documentation to get you started is here:  
 - [Github Pages](https://help.github.com/en/github/working-with-github-pages)  
-- [Jekyll](https://jekyllrb.com/docs/) (including a quick start guide)
+- [Jekyll](https://jekyllrb.com/docs/) (including a quick start guide)<br />
 I personally think Github + Jekyll is a great place to host your personal website - even if you are not a professional coder.  
 
 As a physician scientist working in basic cancer biology, I mainly use the R environment for my research. I have long documented important analysis with Rmarkdowns that I knit to html or pdf files. Generating html or pdf files from Rmarkdowns is super easy in Rstudio - see [here](https://rmarkdown.rstudio.com) for documentation.
@@ -32,7 +32,7 @@ Although this works perfectly fine, it could become tedious if you post a lot an
 The great thing about Github and Jekyll is that it automatically renders your markdowns (but not Rmarkdowns!) to html which is then displayed on your site. 
 Going from an Rmarkdown to a regular markdown is simple enough in Rstudio. However, to be able to post this markdown on your Github/Jekyll site, the followiing issues need to be taken care of:
 - make sure you preserve / carry over the front matter 
-- links / paths to image files generated during the first knit need modified
+- links / paths to image files generated during the first knit need modified<br />
 
 The following front matter will knit your Rmarkdown to a markdown (specifically, the github variant) and carry over your YAML haeder by setting  `preserve_yaml: true`.
 ``` {YAML}
@@ -54,8 +54,8 @@ knitr::opts_knit$set(base.dir = "/Users/jch/web/jchellmuth.github.io/", base.url
 knitr::opts_chunk$set(fig.path = "images/")
 ```
 After knitting, you should have your markdown (`.md`) in the `_posts` folder which is where I also keep the Rmarkdown (`.Rmd`). The images generate during that knit will be in your `images` folder. Feel free to check out my github website repository where I use this very setup to publish R code.  
-
-#### Push your post to github
+<br />
+**Push your post to github**
 Assuming you are working on your Jekyll site and its content locally and have git set up, push the changes to your repository as usual:
 ``` {bash}
 git add .
