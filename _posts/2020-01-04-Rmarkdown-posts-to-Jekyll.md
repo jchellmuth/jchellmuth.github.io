@@ -12,7 +12,7 @@ I think Github + Jekyll is a great place to host your personal website - even if
 
 As a physician scientist working in basic cancer biology, I mainly use the R environment for my research. I have long documented important analysis with Rmarkdowns that I knit to html or pdf files. Generating html or pdf files from Rmarkdowns is super easy in Rstudio - see [here](https://rmarkdown.rstudio.com) for documentation.
 
-Now, if you want to share your Rmarkdown on your Github/Jekyll website, there are some small caveats that need to be addressed to make that work smoothly. Below, are two solutions depending on whether you want to upload html files or markdowns. 
+Now, if you want to share your Rmarkdown on your Github/Jekyll website, there are some small caveats that need to be addressed to make that work smoothly. Below, are two solutions depending on whether you want to upload html files or markdowns. The following steps and description assume you generate your content locally and the upload / push it your github repository. 
 
 ### Option 1: Uploading a complete / allinclusive html files
 When you generate html files form an Rmarkdown, the images that you code might produce are all rendered into that html file. So, when you upload and post that html file to your github page, you don't need to specify any links or worry about paths to the images you want to display. The disadvantage however is that the html file won't conatin any front matter and, more generally, changing / formatting the finished html file is more tedious than editing a markdown (at least for html rookies like me).
@@ -54,5 +54,13 @@ knitr::opts_knit$set(base.dir = "/Users/jch/web/jchellmuth.github.io/", base.url
 knitr::opts_chunk$set(fig.path = "images/")
 ```
 After knitting, you should have your markdown (`.md`) in the `_posts` folder which is where I also keep the Rmarkdown (`.Rmd`). The images generate during that knit will be in your `images` folder. Feel free to check out my github website repository where I use this very setup to publish R code. 
+
+Assuming you are working on your Jekyll site and its content locally and have git set up, push the changes to your repository as usual:
+``` {bash}
+git add .
+git commit -m "new post"
+git push origin master
+```
+
 
 Please send me an email with any questions, comments or suggestions. 
