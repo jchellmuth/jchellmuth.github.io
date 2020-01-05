@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Plotting 3C data as arcs - a ggplot solution
+categories: code ggplot visualization tutorial 
 output:
   md_document:
     variant: markdown_github

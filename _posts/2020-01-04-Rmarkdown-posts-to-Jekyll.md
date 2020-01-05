@@ -21,9 +21,7 @@ The fix for the front matter issue is simple: open the html file in any editor a
 ``` {YAML}
 ---
 layout: post
-title:  Going from Rmarkdown to Jekyll
-date:   2020-01-03 21:56:01 +0100
-categories: code visualization
+title: Going from Rmarkdown to Jekyll
 ---
 ```
 You can now simply move the edited html file to your `_posts` folder and voila - you have your post. 
