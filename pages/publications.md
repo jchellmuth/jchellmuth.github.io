@@ -3,16 +3,16 @@ layout: page
 title: Publications
 ---
 
-## Publications
+### Publications
 [Pubmed](https://www.ncbi.nlm.nih.gov/myncbi/1pUmA1takio5y/bibliography/public/)  
 [Google Scholar](https://scholar.google.com/citations?hl=de&user=voIBaRUAAAAJ)  
 
-## Highlights
+### Highlights
 
 | <img style="width: 600px" src="/images/graphical-abstract-BCL6-LCR.jpeg"> | [An OCT2 / OCA-B / MEF2B Ternary Complex Controls the Activity and Architecture of an Essential Locus Control Region for Normal and Malignant Germinal Center B-Cells](https://www.ncbi.nlm.nih.gov/pubmed/31723990/)<br>Hellmuth JC and Chu CS et al. - ASH abstract<br>bioRxiv Preprint will be up shortly
 | <img style="width: 600px" src="/images/graphical-abstract-PIFL.jpeg"> | [Duodenal-type and nodal follicular lymphomas differ by their immune microenvironment rather than their mutation profiles](https://www.ncbi.nlm.nih.gov/pubmed/30126979/)<br>Hellmuth JC and Louissaint et al. - ASH abstract<br>Blood. 2018. PubMed PMID: 30126979.
 
-## Full list
+### Full list
 
 **Hellmuth JC<sup>*</sup>**, Chu CS<sup>*</sup>, Singh R, Skrabanek LA, Doane A, Elemento O, Roeder RG, Melnick A.  
 [An OCT2 / OCA-B / MEF2B Ternary Complex Controls the Activity and Architecture of an Essential Locus Control Region for Normal and Malignant Germinal Center B-Cells.](https://www.ncbi.nlm.nih.gov/pubmed/31723990/)  
