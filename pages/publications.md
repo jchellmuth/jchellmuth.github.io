@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Publications
-#permalink: publications
 ---
 
 ## Publications
@@ -9,13 +8,11 @@ title: Publications
 [Google Scholar](https://scholar.google.com/citations?hl=de&user=voIBaRUAAAAJ)  
 
 ## Highlights
-| Priority apples | Second priority |
-|-------|--------|
-| ambrosia | gala |
-| pink lady | jazz |
+| First cell | Second cell |
+|---|---|
 | <img style="width: 600px" src="/images/graphical-abstract-BCL6-LCR.jpeg"> | [An OCT2 / OCA-B / MEF2B Ternary Complex Controls the Activity and Architecture of an Essential Locus Control Region for Normal and Malignant Germinal Center B-Cells](https://www.ncbi.nlm.nih.gov/pubmed/31723990/) |  
 | <img style="width: 600px" src="/images/graphical-abstract-PIFL.jpeg"> | [Duodenal-type and nodal follicular lymphomas differ by their immune microenvironment rather than their mutation profiles](https://www.ncbi.nlm.nih.gov/pubmed/30126979/) |  
-<!-- the publication highlights are rendered in a table. vertical table borders were removed by setting border-left: none; and border-right: none; in _base.scss and the table background was set to $background color-->
+
 ## Full list
 
 **Hellmuth JC<sup>*</sup>**, Chu CS<sup>*</sup>, Singh R, Skrabanek LA, Doane A, Elemento O, Roeder RG, Melnick A.  

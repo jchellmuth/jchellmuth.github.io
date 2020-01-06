@@ -1,0 +1,1 @@
+<!-- the publication highlights are rendered in a table. vertical table borders were removed by setting border-left: none; and border-right: none; in _base.scss and the table background was set to $background color-->
