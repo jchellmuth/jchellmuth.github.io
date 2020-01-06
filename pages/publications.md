@@ -9,8 +9,8 @@ title: Publications
 
 ### Highlights
 
-| <img style="width: 600px" src="/images/graphical-abstract-BCL6-LCR.jpeg"> | [An OCT2 / OCA-B / MEF2B Ternary Complex Controls the Activity and Architecture of an Essential Locus Control Region for Normal and Malignant Germinal Center B-Cells](https://www.ncbi.nlm.nih.gov/pubmed/31723990/)<br>Hellmuth JC and Chu CS et al. - ASH abstract<br>bioRxiv Preprint will be up shortly
-| <img style="width: 600px" src="/images/graphical-abstract-PIFL.jpeg"> | [Duodenal-type and nodal follicular lymphomas differ by their immune microenvironment rather than their mutation profiles](https://www.ncbi.nlm.nih.gov/pubmed/30126979/)<br>Hellmuth JC and Louissaint et al. - ASH abstract<br>Blood. 2018. PubMed PMID: 30126979.
+| <img style="width: 600px" src="/images/graphical-abstract-BCL6-LCR.jpeg"> | [An OCT2 / OCA-B / MEF2B Ternary Complex Controls the Activity and Architecture of an Essential Locus Control Region for Normal and Malignant Germinal Center B-Cells](https://www.ncbi.nlm.nih.gov/pubmed/31723990/)<br>Hellmuth JC and Chu CS et al. - ASH abstract<br>bioRxiv Preprint will be up shortly<br><br>Our results demonstrate how an intimately linked complex of lineage- and stage-specific factors converges on specific and highly essential enhancer elements to drive the function of a cell-type defining LCR
+| <img style="width: 600px" src="/images/graphical-abstract-PIFL.jpeg"> | [Duodenal-type and nodal follicular lymphomas differ by their immune microenvironment rather than their mutation profiles](https://www.ncbi.nlm.nih.gov/pubmed/30126979/)<br>Hellmuth JC and Louissaint et al. - ASH abstract<br>Blood. 2018. PubMed PMID: 30126979.<br><br>Duodenal-type follicular lymphoma (DTFL) is a rare and highly indolent follicular lymphoma (FL) variant. Comparative molecular characterization of DTFL to typical FL revealed distinct pathogenic mechanisms. 
 
 ### Full list
 
