@@ -35,6 +35,7 @@ plugins:
   - jekyll-feed
 
 header_pages:
+  - pages/CV.md
   - pages/code.md
   - pages/publications.md
 
