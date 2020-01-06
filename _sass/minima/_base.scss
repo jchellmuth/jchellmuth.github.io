@@ -238,9 +238,11 @@ table {
   color: lighten($text-color, 18%);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
+  border-left: none;
+  border-right: none;
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: $background-color;
     }
   }
   th, td {
@@ -253,5 +255,7 @@ table {
   }
   td {
     border: 1px solid $grey-color-light;
+    border-left: none;
+    border-right: none;
   }
 }
