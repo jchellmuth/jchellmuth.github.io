@@ -37,7 +37,10 @@ Note also, that I am not transforming the data (as suggested by the
 flowCore vignette). Instead, I use the scale function of ggcyto
 (e.g. scale\_x\_flowJo\_biexp) which I find much more convenient.
 
-#### Load libraries
+If you’d like to follow along, you can download the example data
+[here.](https://jchellmuth.github.io/downloads/2020-07-08-FACS-data.zip)
+
+### Load reuqired libraries
 
 ``` r
 library(flowCore)
@@ -272,7 +275,7 @@ getPopStats(gs) %>% head
     ## 6:  4503        7158
 
 ``` r
-ps <- data.frame(getPopStats(gs)) # make 
+ps <- data.frame(getPopStats(gs)) # make data.frame with PopStats
 ```
 
 We can now easily calculate the ‘percent of parent’ (a common metric in
@@ -282,13 +285,16 @@ FACS analysis).
 ps$percent_of_parent <- ps$Count/ps$ParentCount
 ```
 
-If we want to reatain any Pheno Data from the initial flowSet, we can
-use a quick merge (here, we only have the well information though).
+If we want to retain any Pheno Data from the initial flowSet, we can use
+a quick merge (here, we only have the well information though).
 
 ``` r
 psm <- merge(ps,pData(fs),by="name")
 ```
 
-<br><br>Please feel free to email me with any questions, comments
-or suggestions and I’ll be happy to post them here.  
+<br> <br> Please feel free to email me with any questions, comments or
+suggestions and I’ll be happy to post them here.  
 johannes dot c dot hellmuth at gmail dot com
+
+Finally, we can look at data we are interested in - the fraction of GFP
+positive cells in each well.
