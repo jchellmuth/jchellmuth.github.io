@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FACS analysis with R
+title: Analyzing high-throughput FACS assays with R
 categories: code ggplot visualization tutorial FACS
 permalink: /posts/FACS-with-R/
 output:
@@ -12,20 +12,24 @@ output:
 Introduction
 ------------
 
-Analysis of FACS data with R may seem daunting at first but I highly
-recommend it to anyone performing large, FACS-based assays. I frequently
-run experiments in 96-well formats with hundreds of samples (this
-obviously requires a plate reader on your FACS machine). Even if you
-only look at very few markers, traditional FACS analysis software like
-FlowJo doesn’t handle large numbers of samples well. It’s slow, prone to
-crashing and exporting large plots is painful. This is where FACS
-analysis in R does a great job. There are multiple R packages for FACS
-analysis. The two packages I am using in this tutorial and which I
-highly recommend are: - flowCore - ggcyto Each have great documentation
-and I suggest you read through their tutorials to get you started with
-FACS analysis in R. The following tutorial assumes that you have basic
-knowledge of FACS analysis (such as singlet gating) and familiarized
-yourself with the basics of flowCore datastructures and functions.
+Analysis of flow cytometry data with R may seem daunting at first but I
+highly recommend it to anyone performing mid- or high-throghput,
+FACS-based assays. I frequently run experiments in 96-well formats with
+hundreds of samples (this obviously requires a plate reader on your FACS
+machine). Even if you only look at very few markers, traditional flow
+analysis software like FlowJo doesn’t handle large numbers of samples
+well. It’s slow, prone to crashing and exporting large plots is painful.
+This is where flow cytometry analysis in R does a great job. There are
+multiple R packages for flow cytometry data analysis. The two packages I
+am using in this tutorial and which I highly recommend are:
+* [flowCore](https://bioconductor.org/packages/release/bioc/html/flowCore.html)  
+* [ggcyto](https://bioconductor.org/packages/release/bioc/html/ggcyto.html)  
+
+Each have great documentation and I suggest you read through their
+tutorials to get you started with flow analysis in R. The following
+tutorial assumes that you have basic knowledge of flo cytometry data
+analysis (such as basic gating operations) and familiarized yourself
+with the basics of flowCore datastructures and functions.
 
 In the example analysis below, I am looking at the fraction of GFP
 positive cells in a 96-well plate. Each well has infected with a
@@ -40,7 +44,8 @@ flowCore vignette). Instead, I use the scale function of ggcyto
 If you’d like to follow along, you can download the example data
 [here.](https://jchellmuth.github.io/downloads/2020-07-08-FACS-data.zip)
 
-### Load reuqired libraries
+Load reuqired libraries
+-----------------------
 
 ``` r
 library(flowCore)
