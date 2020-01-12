@@ -5,7 +5,7 @@ layout: home
 <img style="float: right; width: 350px" src="images/jchellmuth_clinical.jpeg">
 
 **Johannes C. Hellmuth, MD** <br>
-Physician Scientist in Hematology/Oncology<br>
+Hematology/Oncology Physician Scientist<br>
 at the University of Munich<br>
 
 Publications<br>
