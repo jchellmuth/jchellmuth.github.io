@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: recipe_home
 title: Recipes
 sitemap: false
 permalink: /recipes/
 ---
-
-## Main
-
-## Deserts
-(Biscuit Tortoni)[links to follow]
