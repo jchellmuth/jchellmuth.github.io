@@ -1,5 +1,6 @@
 ---
 title: Posting Rmarkdowns to your Jekyll website
+author: Johannes C Hellmuth
 categories: Jekyll website code
 ---
 

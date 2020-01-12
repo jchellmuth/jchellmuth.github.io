@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Analyzing high-throughput FACS assays with R
+author: Johannes C Hellmuth
 categories: code ggplot visualization tutorial FACS
 permalink: /posts/FACS-with-R/
 output:

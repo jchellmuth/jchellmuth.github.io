@@ -3,9 +3,9 @@ layout: post
 author: Johannes C Hellmuth
 title: Biscuit Tortoni
 tags: recipe dessert
+permalink: /biscuit-tortoni/
 ---
 
-# Biscuit Tortoni
 Source: Cookery Year
 
 # Ingredients
@@ -15,7 +15,9 @@ Source: Cookery Year
 |Amarettini|200gr||  
 |Sherry|100ml||  
 
-Note: Sandeman Dry Sherry
+# Notes
+* Sandeman Dry Sherry has worked well so far  
+* The original recipe calls for ...
 
 # Preparation
 * Whip Cream with powdered sugar  
