@@ -22,8 +22,8 @@ well. It’s slow, prone to crashing and exporting large plots is painful.
 This is where flow cytometry analysis in R does a great job. There are
 multiple R packages for flow cytometry data analysis. The two packages I
 am using in this tutorial and which I highly recommend are:  
-*[flowCore](https://bioconductor.org/packages/release/bioc/html/flowCore.html)  
-*[ggcyto](https://bioconductor.org/packages/release/bioc/html/ggcyto.html)  
+* [flowCore](https://bioconductor.org/packages/release/bioc/html/flowCore.html)  
+* [ggcyto](https://bioconductor.org/packages/release/bioc/html/ggcyto.html)  
 
 Both have great documentation and I suggest you work through their
 vignettes to get you started with flow analysis in R. The following
