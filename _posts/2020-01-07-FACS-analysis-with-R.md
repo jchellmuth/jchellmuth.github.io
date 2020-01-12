@@ -13,7 +13,7 @@ Introduction
 ------------
 
 Analysis of flow cytometry data with R may seem daunting at first but I
-highly recommend it to anyone performing mid- or high-throghput,
+highly recommend it to anyone performing mid- or high-throghput
 FACS-based assays. I frequently run experiments in 96-well formats with
 hundreds of samples (this obviously requires a plate reader on your FACS
 machine). Even if you only look at very few markers, traditional flow
@@ -21,21 +21,21 @@ analysis software like FlowJo doesn’t handle large numbers of samples
 well. It’s slow, prone to crashing and exporting large plots is painful.
 This is where flow cytometry analysis in R does a great job. There are
 multiple R packages for flow cytometry data analysis. The two packages I
-am using in this tutorial and which I highly recommend are:
-* [flowCore](https://bioconductor.org/packages/release/bioc/html/flowCore.html)  
-* [ggcyto](https://bioconductor.org/packages/release/bioc/html/ggcyto.html)  
+am using in this tutorial and which I highly recommend are:  
+*[flowCore](https://bioconductor.org/packages/release/bioc/html/flowCore.html)  
+*[ggcyto](https://bioconductor.org/packages/release/bioc/html/ggcyto.html)  
 
-Each have great documentation and I suggest you read through their
-tutorials to get you started with flow analysis in R. The following
-tutorial assumes that you have basic knowledge of flo cytometry data
+Both have great documentation and I suggest you work through their
+vignettes to get you started with flow analysis in R. The following
+tutorial assumes that you have some knowledge of flow cytometry data
 analysis (such as basic gating operations) and familiarized yourself
 with the basics of flowCore datastructures and functions.
 
 In the example analysis below, I am looking at the fraction of GFP
-positive cells in a 96-well plate. Each well has infected with a
+positive cells in a 96-well plate. Each well has been infected with a
 different GFP-tagged gRNA. In the actual experiment, I then look at the
-farction of GFP positive cells over time so see which gRNAs drop out,
-but for now, we’ll just be looking at one timepoint / dataset.  
+fraction of GFP positive cells over time to see which gRNAs drop out.
+For now, we’ll just be looking at one timepoint / dataset.  
 Because I am only looking at one marker, no compensation is required.
 Note also, that I am not transforming the data (as suggested by the
 flowCore vignette). Instead, I use the scale function of ggcyto
@@ -63,10 +63,10 @@ flowSet object will store the data from all these `.fcs` files.
 fs <- read.flowSet(path = "../downloads/2020-07-08-FACS-data//",pattern = ".fcs",alter.names = T)
 ```
 
-Sample information (aka Phenotypic data) such as sample names can be
-accessed with the `pData` function. The default sample names are note
-very useful. So, let’s extract the well ID from the sample name to make
-our live easier later on.
+Sample information (aka phenotypic data) such as sample names can be
+accessed with the `pData` function. The default sample names are not
+very useful. So, let’s extract the well ID from the sample name (this
+will make things easier later on).
 
 ``` r
 pData(fs) %>% head(3)
@@ -87,7 +87,7 @@ pData(fs) %>% head(3)
     ## Specimen_001_B11_B11_010.fcs Specimen_001_B11_B11_010.fcs  B11
     ## Specimen_001_B2_B02_001.fcs   Specimen_001_B2_B02_001.fcs  B02
 
-The default channel names on most FACS machine are useless and changing
+The default channel names on most FACS machines are useless and changing
 them there is often tedious. On our BD FACS Canto II, for example, the
 \[405\|450/50\] channel is named “FITC.A” and the \[488\|530/30\] is
 named “Pacific.Blue.A” - irrespective of the fluorphore you are actually
@@ -166,14 +166,14 @@ ggcyto(gs[[1]],aes(x=FSC.A,y=SSC.A),subset="Singlets")+geom_hex(bins = 200)+ggcy
 
 Now comes the fun part where R works so much better than FlowJo:
 plotting the data for all samples at once. This is based on the ggplot’s
-`facet_wrap` command (even if you don’t call that command). If we now
-use the ‘well’ column with `facet_wrap`, we’ll get meaningful title for
-each plot. Although you might not use this overview plot for any kind of
-publication (espcially not something boring like your singlet gate),
-this kind of plot allows you to immediatley spot any issues with certain
-samples (dead cells, clumped cells, technical issues with your FACS
-machine). Thus, I recommend generating these overview plots at each
-gating step.
+`facet_wrap` command (included by default in `ggcyto` when using even if
+you don’t explicitly call that command). If we now use the ‘well’ column
+with `facet_wrap`, we’ll get meaningful titles for each plot. Although
+you might not use this overview plot for any kind of publication
+(espcially not something boring like your singlet gate), this kind of
+plot allows you to immediately spot any issues with certain samples
+(dead cells, clumped cells, technical errors with your FACS machine).
+Thus, I recommend generating these overview plots at each gating step.
 
 ``` r
 ggcyto(gs,aes(x=FSC.A,y=FSC.H),subset="root")+geom_hex(bins = 100)+geom_gate("Singlets")+
@@ -221,9 +221,8 @@ Set GFP+ gate
 -------------
 
 Because we are only looking at one channel (GFP) for the next gating
-step, we can now switch to using density plots instead of the hex plots
-above. These are faster to generate, simpler to look at and need less
-storage.
+step, we can now switch to density plots instead of the hex plots above.
+These are faster to generate, simpler to look at and need less storage.
 
 ``` r
 g.gfp <- rectangleGate(filterId="GFP positive","GFP"=c(1000, Inf)) # set gate
@@ -242,7 +241,7 @@ add(gs,g.gfp,parent="Live") # add gate to GatingSet
 recompute(gs) # recalculate Gatingset
 ```
 
-Finally, we can look at data we are interested in - the fraction of GFP
+Now, we can look at the data we were looking for: the fraction of GFP
 positive cells in each well.
 
 ``` r
@@ -254,8 +253,8 @@ ggcyto(gs,aes(x=GFP),subset="Live",)+geom_density(fill="forestgreen")+geom_gate(
 
 ![](/images/2020-01-07-GFP-gate-facet-1.png)
 
-Get fraction for downstream analysis
-------------------------------------
+Get populations stats for downstream analysis
+---------------------------------------------
 
 To get the data from each gating step from the `GatingSet`, we can use
 the `getPopStats` function.
@@ -291,7 +290,7 @@ ps$percent_of_parent <- ps$Count/ps$ParentCount
 ```
 
 If we want to retain any Pheno Data from the initial flowSet, we can use
-a quick merge (here, we only have the well information though).
+a simple merge (here, we only have well information).
 
 ``` r
 psm <- merge(ps,pData(fs),by="name")
@@ -300,6 +299,3 @@ psm <- merge(ps,pData(fs),by="name")
 <br> <br> Please feel free to email me with any questions, comments or
 suggestions and I’ll be happy to post them here.  
 johannes dot c dot hellmuth at gmail dot com
-
-Finally, we can look at data we are interested in - the fraction of GFP
-positive cells in each well.
