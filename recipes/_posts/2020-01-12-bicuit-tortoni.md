@@ -4,6 +4,7 @@ author: Johannes C Hellmuth
 title: Biscuit Tortoni
 tags: recipe dessert
 permalink: /biscuit-tortoni/
+sitemap: false
 ---
 
 Source: Cookery Year

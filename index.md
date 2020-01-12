@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Johannes C. Hellmuth, MD 
+author: Johannes C Hellmuth
 description: Dr. med. Johannes C. Hellmuth, Hematology/Oncology Physician Scientist at the University of Munich focusing on Non-Hodgking Lymphoma (NHL), the role of the non-coding genome, epigenetics and transcription factors in lymphoid cancer biology. This website includes my research and clinical background, publications, code examples and tutorials. Name aliases: JCHellmuth, J. Hellmuth, Johannes Hellmuth, JC Hellmuth, Dr. med. J.C. Hellmuth.
 ---
 

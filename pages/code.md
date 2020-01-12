@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Code
+author: Johannes C Hellmuth
 description: Code examples and tutorials focusing on epigenetics, CRISPR and transcription factor biology. Most code is in R / Rstudio. Central code examples and walk-throughs of my published papers will be posted here.
 permalink: /code/
 ---

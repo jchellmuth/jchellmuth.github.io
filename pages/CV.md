@@ -1,6 +1,7 @@
 ---
 layout: page
 title: CV
+author: Johannes C Hellmuth
 permalink: /cv/
 ---
 
