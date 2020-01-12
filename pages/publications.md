@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Johannes C. Hellmuth - Publications
-description: This site lists my scientific publications and current preprints.
+title: Publications
+description: This site list Johannes C. Hellmuth's scientific publications and current preprints.
 permalink: /publications/
 ---
 

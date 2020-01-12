@@ -39,6 +39,14 @@ header_pages:
 
 exclude: ["_drafts","*.Rmd"]
 
+# exclude CV from sitemap to avoid google searchability
+defaults:
+  -
+    scope:
+      path:            "pdfs/CV_jchellmuth.pdf"
+    values:
+      sitemap:         false
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
