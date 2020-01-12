@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: post
 author: Johannes C Hellmuth
 title: Biscuit Tortoni
 tags: recipe dessert
