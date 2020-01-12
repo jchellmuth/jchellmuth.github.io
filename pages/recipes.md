@@ -1,5 +1,5 @@
 ---
-layout: cooking
+layout: recipes
 title: Recipes and other food related posts
 author: Johannes C Hellmuth
 sitemap: false
