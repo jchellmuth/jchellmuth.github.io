@@ -33,6 +33,7 @@ github_username:  jchellmuth
 theme: minima
 plugins:
   - jekyll-feed
+markdown: GFM
 
 header_pages:
   - pages/CV.md
