@@ -25,6 +25,9 @@ description: Johannes C. Hellmuth, MD - Hematology/Oncology Physician Scientist 
 url: "http://jchellmuth.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jchellmuth
 github_username:  jchellmuth
+# google site ownerschip verification (for SEO)
+google-site-verification: pVVvOn9jMe8oXHrrgCLxfLebko5dAXj5eHz5CLmvTcU
+#<meta name="google-site-verification" content="pVVvOn9jMe8oXHrrgCLxfLebko5dAXj5eHz5CLmvTcU" />
 
 # Build settings
 theme: minima
