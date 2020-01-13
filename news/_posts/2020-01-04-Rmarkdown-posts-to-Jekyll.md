@@ -67,4 +67,4 @@ git push origin master
 <br />
 <br />
 Please feel free to email me with any questions, comments or suggestions and I'll be happy to post them here.
-johannes dot c dot hellmuth at gmail dot com
+info at jchellmuth.com

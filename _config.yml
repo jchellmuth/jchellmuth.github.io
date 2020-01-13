@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Johannes C. Hellmuth
-email: 27713165+jchellmuth@users.noreply.github.com
+email: info@jchellmuth.com
 description: Johannes C. Hellmuth, MD, Hematology/Oncology Physician Scientist at the University of Munich focusing on Non-Hodgking Lymphoma (NHL), the role of the non-coding genome, epigenetics and transcription factors in lymphoid cancer biology.
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jchellmuth.com" # the base hostname & protocol for your site, e.g. http://example.com
