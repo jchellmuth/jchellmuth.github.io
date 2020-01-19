@@ -20,7 +20,7 @@ Twitter<br>
 <br>
 
 ## Research profile
-My main research interest is the key question: how do changes in epigenetic, transcriptional and regulatory networks facilitate malignant transformation and cancer? A better understanding of this fundamental question will be pivotal in building novel and highly personalized treatments as well as developing early detection strategies of malignant and pre-malignant states.<br>
+My main research interest is the key question: **how do changes in epigenetic, transcriptional and regulatory networks facilitate malignant transformation and cancer?** A better understanding of this fundamental question will be pivotal in building novel and highly personalized treatments as well as developing early detection strategies of malignant and pre-malignant states.<br>
 My research generally focuses on germinal center-derived lymphoma such as Diffuse Large B-cell Lymphoma (DLBCL) and Follicular Lymphoma (FL). FL and DLBCL are inherently epigenetic diseases as evidenced by the high frequency of mutations in epigenetic modifier genes. They are therefore ideally suited to study how changes in epigenetic and regulatory mechanisms lead to cancer. My work makes extensive use of CRISPR-based methods. Recently, we have used a dual CRISPR screening approach to dissect a large, cell-type defining locus control region that is essential for lymphoma cell survival ([preprint](https://www.ncbi.nlm.nih.gov/pubmed/31723990/)) highlighting the power of CRISPR to interrogate the non-coding genome. My current research focuses on defining non-coding elements that are essential to cancer cell survival and how this knowledge can be leveraged for novel therapeutic strategies.
 {: style="text-align: justify"}
 
