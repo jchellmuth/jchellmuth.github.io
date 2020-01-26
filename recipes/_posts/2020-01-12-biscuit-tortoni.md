@@ -5,6 +5,7 @@ title: Biscuit Tortoni
 tags: recipe dessert icecream
 permalink: /biscuit-tortoni/
 sitemap: false
+robots: noindex
 ---
 
 This recipe is originally from:  
@@ -13,9 +14,9 @@ The Cookery Year, Reader's Digest, 1984
 # Ingredients
 
 |Whipping cream|500 ml|1 imperial pint|  
-|Icing Sugar|60 gr|2 oz|  
+|Icing Sugar|60 g|2 oz|  
 |Salt|pinch|    
-|Amarettini / macaroons|200 gr|  
+|Amarettini / macaroons|200 g|  
 |Sherry|90 ml|3 fluid oz|  
 
 # Notes

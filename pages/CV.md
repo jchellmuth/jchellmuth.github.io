@@ -2,6 +2,8 @@
 layout: page
 title: CV
 author: Johannes C Hellmuth
+sitemap: false
+robots: noindex
 permalink: /cv/
 ---
 
