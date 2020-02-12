@@ -13,4 +13,14 @@ permalink: /code/
 
 
 ### Code and resources from published papers
-- coming soon
+<br/>
+[An OCT2 / OCA-B / MEF2B Ternary Complex Controls the Activity and Architecture of an Essential Locus Control Region for Normal and Malignant Germinal Center B-Cells.](https://ashpublications.org/blood/article/134/Supplement_1/24/427812/An-OCT2-OCA-B-MEF2B-Ternary-Complex-Controls-the)  
+Resources:
+A UCSC track hub to fully explore all relevant data at the BCL6 locus is available [here](https://melnicklab.s3.amazonaws.com/jch2004/BCL6-LCR_pub-tracks/hub.txt) 
+Code:
+* In silico design for a maximum density CRISPR screening library  - [script 1 (under construction)]
+* Analysis of CRISPR screening results  - [script 2 (under construction)]
+* R-based FACS analysis for drop-out experiments  - [script 3 (under construction)] 
+* Transcrition factor motif analysis  
+  * Motif download, processing and matching to a region of interest (BCL6 locus) - [script 4.1]({% link html/3.1_TF-motif-matching.html %})
+  * Motif density comparison in essential vs non-essential enhancers - [script 4.2]({% link html/3.2_TF-motif-density.html %})
