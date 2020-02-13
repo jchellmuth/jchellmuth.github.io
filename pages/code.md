@@ -21,7 +21,7 @@ Resources:
 
 Code:  
 * In silico design for a maximum density CRISPR screening library  - [script 1.1]({% link html/1.1_Library-design-LCR.html %})  
-* Analysis of CRISPR screening results  - [script 2 (under construction)]({% link html/3.1_TF-motif-matching.html %})  
+* Analysis of CRISPR screening results  - [script 2.1]({% link html/2.1_CRISPRi-analysis.html %})  
 * R-based FACS analysis for drop-out experiments  - [script 3 (under construction)]({% link html/3.1_TF-motif-matching.html %})  
 * Transcrition factor motif analysis  
   * Motif download, processing and matching to a region of interest (BCL6 locus) - [script 4.1]({% link html/3.1_TF-motif-matching.html %})
