@@ -20,7 +20,7 @@ Resources:
 * A UCSC track hub to fully explore all relevant data at the BCL6 locus is available [here](http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr3:187710000-188270000&hubUrl=https://melnicklab.s3.amazonaws.com/jch2004/BCL6-LCR_pub-tracks/hub.txt)  
 
 Code:  
-* In silico design for a maximum density CRISPR screening library  - [script 1 (under construction)]({% link html/3.1_TF-motif-matching.html %})  
+* In silico design for a maximum density CRISPR screening library  - [script 1.1]({% link html/1.1_Library-design-LCR.html %})  
 * Analysis of CRISPR screening results  - [script 2 (under construction)]({% link html/3.1_TF-motif-matching.html %})  
 * R-based FACS analysis for drop-out experiments  - [script 3 (under construction)]({% link html/3.1_TF-motif-matching.html %})  
 * Transcrition factor motif analysis  
