@@ -19,10 +19,8 @@ Chu & Hellmuth et al. *submitted*
   
 Resources:  
 * A UCSC track hub to fully explore all relevant data at the BCL6 locus is available [here](http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr3:187710000-188270000&hubUrl=https://raw.githubusercontent.com/jchellmuth/BCL6.track.hub/master/hub.txt)
-* A version of this track hub with highlights for each constituent enhancer is available [here](http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr3:187710000-188270000&hubUrl=https://raw.githubusercontent.com/jchellmuth/BCL6.track.hub/master/hub.txt&highlight=hg38.chr3%3A187900071-187903310%230064C8%7Chg38.chr3%3A187918231-187920230%23808080%7Chg38.chr3%3A187934971-187936970%23808080%7Chg38.chr3%3A187941871-187947250%23808080%7Chg38.chr3%3A187957831-187959830%230064C8%7Chg38.chr3%3A187962431-187964430%23808080%7Chg38.chr3%3A187968751-187970750%230064C8%7Chg38.chr3%3A187973731-187975950%23808080%7Chg38.chr3%3A187977811-187980750%230064C8%7Chg38.chr3%3A187981291-187983290%23808080%7Chg38.chr3%3A187743727-187745726%23228B22)
-* GEO accession numbers will be up shortly 
-
-
+* A version of this track hub with highlights for each constituent enhancer is available [here](http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr3:187710000-188270000&hubUrl=https://raw.githubusercontent.com/jchellmuth/BCL6.track.hub/master/hub.txt&highlight=hg38.chr3%3A187900071-187903310%230064C8%7Chg38.chr3%3A187918231-187920230%23808080%7Chg38.chr3%3A187934971-187936970%23808080%7Chg38.chr3%3A187941871-187947250%23808080%7Chg38.chr3%3A187957831-187959830%230064C8%7Chg38.chr3%3A187962431-187964430%23808080%7Chg38.chr3%3A187968751-187970750%230064C8%7Chg38.chr3%3A187973731-187975950%23808080%7Chg38.chr3%3A187977811-187980750%230064C8%7Chg38.chr3%3A187981291-187983290%23808080%7Chg38.chr3%3A187743727-187745726%23228B22)  
+  
 Code:  
 * In silico design for a maximum density CRISPR screening library  - [script 1.1]({% link html/1.1_Library-design-LCR.html %})  
 * Analysis of CRISPRi screening results
