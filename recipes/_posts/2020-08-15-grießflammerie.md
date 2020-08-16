@@ -12,13 +12,13 @@ This recipe is originally from: my mum
 
 # Ingredients
 
-|Grieß / fine grit|80 g||  
-|Whipping cream|200 ml||  
-|Vanilla pod|1||  
-|Sugar|200 g|? oz|  
+|Grieß / fine grit|80 g|  
+|Whipping cream|200 ml|  
+|Vanilla pod|1|  
+|Sugar|200 g|  
 |Eggs|2, separated|    
 |Grand Marnier|50 ml|  
-|Gelatine|7 pieces (7 blatt)||  
+|Gelatine|7 pieces (7 blatt)|  
 
 # Notes
 * Original recipe calles for 300ml whipping cream. Sarah prefers this reciped less cream heavy.
