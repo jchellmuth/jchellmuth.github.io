@@ -8,8 +8,7 @@ sitemap: false
 robots: noindex
 ---
 
-This recipe is originally from:  
-The Cookery Year, Reader's Digest, 1984
+This recipe is originally from: The Cookery Year, Reader's Digest, 1984
 
 # Ingredients
 
