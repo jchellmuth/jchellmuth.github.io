@@ -23,8 +23,10 @@ well. It’s slow, prone to crashing and exporting large plots is painful.
 This is where flow cytometry analysis in R does a great job. There are
 multiple R packages for flow cytometry data analysis. The two packages I
 am using in this tutorial and which I highly recommend are:  
-* [flowCore](https://bioconductor.org/packages/release/bioc/html/flowCore.html)  
-* [ggcyto](https://bioconductor.org/packages/release/bioc/html/ggcyto.html)  
+\*
+[flowCore](https://bioconductor.org/packages/release/bioc/html/flowCore.html)  
+\*
+[ggcyto](https://bioconductor.org/packages/release/bioc/html/ggcyto.html)
 
 Both have great documentation and I suggest you work through their
 vignettes to get you started with flow analysis in R. The following
@@ -45,7 +47,7 @@ flowCore vignette). Instead, I use the scale function of ggcyto
 If you’d like to follow along, you can download the example data
 [here.](https://jchellmuth.github.io/downloads/2020-07-08-FACS-data.zip)
 
-Load reuqired libraries
+Load required libraries
 -----------------------
 
 ``` r
@@ -61,7 +63,7 @@ The `read.flowSet` allows you to read many `.fcs` at once. The resultant
 flowSet object will store the data from all these `.fcs` files.
 
 ``` r
-fs <- read.flowSet(path = "../downloads/2020-07-08-FACS-data//",pattern = ".fcs",alter.names = T)
+fs <- read.flowSet(path = "../../downloads/2020-07-08-FACS-data//",pattern = ".fcs",alter.names = T)
 ```
 
 Sample information (aka phenotypic data) such as sample names can be
@@ -126,9 +128,10 @@ tedious in R as opposed to interactive gating with FlowJo. However, if
 you usually use similar cells or cell lines and keep the voltage
 settings on your machine constant, you really only have to set these
 gates once. After that, all you may have to do is tweak the gates a
-little. The basic steps I take for each of the gatings below are: 1.
-define the gate 2. check the gate in a plot (before adding it to the
-gating set) 3. if the gate seems right, add / apply it to the gating set
+little. The basic steps I take for each of the gatings below are:  
+1. define the gate  
+2. check the gate in a plot (before adding it to the gating set)  
+3. if the gate seems right, add / apply it to the gating set  
 4. recompute the gatingSet to have statistics available
 
 ``` r
@@ -166,7 +169,7 @@ ggcyto(gs[[1]],aes(x=FSC.A,y=SSC.A),subset="Singlets")+geom_hex(bins = 200)+ggcy
 ![](/images/2020-01-07-singlets-gate-post-check-2.png)
 
 Now comes the fun part where R works so much better than FlowJo:
-plotting the data for all samples at once. This is based on the ggplot’s
+plotting the data for all samples at once. This is based on ggplot’s
 `facet_wrap` command (included by default in `ggcyto` when using even if
 you don’t explicitly call that command). If we now use the ‘well’ column
 with `facet_wrap`, we’ll get meaningful titles for each plot. Although

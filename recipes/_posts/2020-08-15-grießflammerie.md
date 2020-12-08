@@ -8,7 +8,7 @@ sitemap: false
 robots: noindex
 ---
 
-This recipe is originally from: my mum
+This recipe is originally from: my mum's recipe folder
 
 # Ingredients
 
