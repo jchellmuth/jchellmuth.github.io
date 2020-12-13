@@ -9,11 +9,12 @@ robots: noindex
 ---
 
 The following recipe is from ,The River Cafe Cook Book' by Rose Gray and Ruth Rogers.
+
 # Ingredients
 Serves 6
 
-|Pumpkin|1.5 kg|seeded and dice into 5cm cubes|  
-|Potatoes|150 g|peeled and cubed| 
+|Pumpkin|1.5 kg|seeded and diced into 5cm cubes|  
+|Potatoes|150 g|peeled and diced| 
 |Red onions (small)|2|finely chopped|    
 |Garlic|2 cloves|cut into slivers|  
 |Chicken stock|1 litre||  
@@ -27,7 +28,7 @@ Notes
 * This is a very thick soup.  
 * Vegetable broth instead of chicken broth works as well.  
 * The original recipe recommends serving with Crostini (Ciabatt bread + garlic + olive oil)
-* Variation according to original recipe (which I haven't treid yet): add 1500g cooked cnaelli beans when you add the pumpkin. Reserve some whole ones to add to the final puree. 
+* Variation according to original recipe (which I haven't tried yet): add 150g cooked canelli beans when you add the pumpkin. Reserve some whole ones to add to the final puree. 
 
 # Preparation
 * Heat oil and butter in a large, heavy saucepan and gently fry the onion until soft.
