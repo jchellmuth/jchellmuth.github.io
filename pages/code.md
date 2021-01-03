@@ -16,7 +16,7 @@ permalink: /code/
 <br/>
 [**Unique Immune Cell Coactivators Specify Locus Control Region Function and Cell Stage**](https://www.cell.com/molecular-cell/fulltext/S1097-2765(20)30743-7)  
 Chu and Hellmuth et al.  
-Mol Cell. 2020. PubMed PMID: 33232656.  
+Mol Cell. 2020. PubMed PMID: [33232656.](https://pubmed.ncbi.nlm.nih.gov/33232656/https://pubmed.ncbi.nlm.nih.gov/33232656/)  
 [View or download PDF here]({% link pdfs/Chu and Hellmuth Mol Cell.pdf %})  
 
   
