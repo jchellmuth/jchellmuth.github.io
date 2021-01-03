@@ -14,9 +14,11 @@ permalink: /code/
 
 ### Code and resources from published papers
 <br/>
-[**Unique Immune Cell Coactivators Specify Locus Control Region Function and Cell Stage**](https://www.cell.com/molecular-cell/fulltext/S1097-2765(20)30743-7)
-Chu & Hellmuth et al.  
-Molecular Cell. 2020. PubMed PMID: 33232656.
+[**Unique Immune Cell Coactivators Specify Locus Control Region Function and Cell Stage**](https://www.cell.com/molecular-cell/fulltext/S1097-2765(20)30743-7)  
+Chu and Hellmuth et al.  
+Mol Cell. 2020. PubMed PMID: 33232656.  
+[View or download PDF here]({% link pdfs/Chu and Hellmuth Mol Cell.pdf %})  
+
   
 Resources:  
 * A UCSC track hub to fully explore all relevant data at the BCL6 locus is available [here](http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr3:187710000-188270000&hubUrl=https://raw.githubusercontent.com/jchellmuth/BCL6.track.hub/master/hub.txt)
