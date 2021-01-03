@@ -1,11 +1,11 @@
 Publication highlights:
 publication highlights are rendered in a table. 
-Vertical table borders were removed by chagning settings in the `_base.scss` file
+Vertical table borders were removed by changing settings in the `_base.scss` file
 `border-left: none; and border-right: none;`  
 and the table background was set to $background color
 
 SEO:
-toe exclude certain pages from search engines, I am doing two things 
+to exclude certain pages from search engines, I am doing two things 
 1. Exclude from sitemap file (which helps google to crawl the page).
 This is done by setting `sitemap: false` in the YAML front matter
 2. Use the robots meta tag
