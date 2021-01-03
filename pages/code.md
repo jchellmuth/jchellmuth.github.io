@@ -14,8 +14,9 @@ permalink: /code/
 
 ### Code and resources from published papers
 <br/>
-[**Unique immune cell coactivators specify locus control region function and cell stage**](https://ashpublications.org/blood/article/134/Supplement_1/24/427812/An-OCT2-OCA-B-MEF2B-Ternary-Complex-Controls-the)  
-Chu & Hellmuth et al. *submitted*
+[**Unique Immune Cell Coactivators Specify Locus Control Region Function and Cell Stage**](https://www.cell.com/molecular-cell/fulltext/S1097-2765(20)30743-7)
+Chu & Hellmuth et al.  
+Molecular Cell. 2020. PubMed PMID: 33232656.
   
 Resources:  
 * A UCSC track hub to fully explore all relevant data at the BCL6 locus is available [here](http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr3:187710000-188270000&hubUrl=https://raw.githubusercontent.com/jchellmuth/BCL6.track.hub/master/hub.txt)
