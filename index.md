@@ -12,8 +12,9 @@ Hematology/Oncology Physician-Scientist<br>
 at the University of Munich<br>
 
 Publications<br>
-[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/1pUmA1takio5y/bibliography/public/)<br>
 [Google Scholar](https://scholar.google.com/citations?hl=de&user=voIBaRUAAAAJ)<br>
+[NCBI Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/1pUmA1takio5y/bibliography/public/)<br>
+
 
 Twitter<br>
 [@jchellmuth](http://twitter.com/jchellmuth)
@@ -21,7 +22,7 @@ Twitter<br>
 
 ## Research profile
 My main research interest is the key question: **how do changes in epigenetic, transcriptional and regulatory networks facilitate malignant transformation and cancer?** A better understanding of this fundamental question will be pivotal in building novel and highly personalized treatments as well as developing early detection strategies of malignant and pre-malignant states.<br>
-My research generally focuses on germinal center-derived lymphoma such as Diffuse Large B-cell Lymphoma (DLBCL) and Follicular Lymphoma (FL). FL and DLBCL are inherently epigenetic diseases as evidenced by the high frequency of mutations in epigenetic modifier genes. They are therefore ideally suited to study how changes in epigenetic and regulatory mechanisms lead to cancer. My work makes extensive use of CRISPR-based methods. Recently, we have used a dual CRISPR screening approach to dissect a large, cell-type defining locus control region that is essential for lymphoma cell survival ([preprint](https://www.ncbi.nlm.nih.gov/pubmed/31723990/)) highlighting the power of CRISPR to interrogate the non-coding genome. My current research focuses on defining non-coding elements that are essential to cancer cell survival and how this knowledge can be leveraged for novel therapeutic strategies.
+My research generally focuses on germinal center-derived lymphoma such as Diffuse Large B-cell Lymphoma (DLBCL) and Follicular Lymphoma (FL). FL and DLBCL are inherently epigenetic diseases as evidenced by the high frequency of mutations in epigenetic modifier genes. They are therefore ideally suited to study how changes in epigenetic and regulatory mechanisms lead to cancer. My work makes extensive use of CRISPR-based methods. Recently, we used a novel CRISPR screening approach to dissect a large, cell-type defining locus control region that is essential for lymphoma cell survival highlighting the power of CRISPR to interrogate the non-coding genome ([Chu and Hellmuth et al.](https://www.cell.com/molecular-cell/fulltext/S1097-2765(20)30743-7)). My current research focuses on defining non-coding elements that are essential to cancer cell survival and how this knowledge can be leveraged for novel therapeutic strategies.
 {: style="text-align: justify"}
 
 ## Clinical profile
