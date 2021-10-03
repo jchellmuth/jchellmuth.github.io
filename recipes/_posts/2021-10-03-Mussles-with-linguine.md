@@ -9,12 +9,13 @@ robots: noindex
 ---
 
 # Ingredients
-For 2 People:  
+Serves 2
+
 |Mussles|1 kg|  
-|Luingine|250g|  
-|Parsley||     
-|Garlic|2 cloves||  
-|Chopped Tomatoes|2 cans||  
+|Luingine|250g|   
+|Parsley|  
+|Garlic|2 cloves|  
+|Chopped Tomatoes|2 cans|  
 
 # Roasted Garlic
 * Heat olive oil in a large pot (preferably, the largest pot you have)
