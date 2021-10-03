@@ -3,7 +3,7 @@ layout: post
 author: Johannes C Hellmuth
 title: Mussles with linguine and tomato sauce
 tags: seafood
-permalink: /hummus/
+permalink: /mussels-linguine/
 sitemap: false
 robots: noindex
 ---
