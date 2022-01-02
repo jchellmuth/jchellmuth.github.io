@@ -33,7 +33,6 @@ plugins:
   - jekyll-sitemap
 
 header_pages:
-  - pages/CV.md
   - pages/code.md
   - pages/publications.md
 
@@ -43,7 +42,7 @@ exclude: ["_drafts","*.Rmd"]
 defaults:
   -
     scope:
-      path:            "pdfs/CV_jchellmuth.pdf"
+      path:            "cooking/"
     values:
       sitemap:         false
 

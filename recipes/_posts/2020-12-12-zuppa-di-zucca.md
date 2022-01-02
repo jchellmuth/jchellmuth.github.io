@@ -19,7 +19,7 @@ Serves 6
 |Garlic|2 cloves|cut into slivers|  
 |Chicken stock|1 litre||  
 |Fresh Majoram|4 large sprigs||  
-|Dreied chilis|1-2|optional|  
+|Dried chilis|1-2|optional|  
 |Olive oil|3 tbsp||  
 |Butter|50 g||  
 |Parmesan to serve||  
@@ -39,7 +39,7 @@ Notes
 * Option 1 (simpler and preferred):  
     * Mix entire soup using a hand blender. 
 * Option 2 (original recipe):
-   * Strain about a third of the stock from the pumpkin and set aside (in my opinion, this is optional)
+   * Strain about a third of the stock from the pumpkin and set aside
   * Mix remainder in a food processor (very thick!)
   * Return to saucepan and add back the stock you removed. 
 * Serve with Parmesan and Crostini

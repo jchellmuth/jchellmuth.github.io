@@ -16,7 +16,7 @@ Serves 2
 |Garlic|2 cloves|  
 |Chopped Tomatoes|2 cans|  
 
-# Roasted Garlic
+# Preparation
 * Heat olive oil in a large pot (preferably, the largest pot you have)
 * Cook garlic (make sure not to let it brown)
 * Add canned tomatoes, season with salt and pepper and cook until sauce has concentrated a little
