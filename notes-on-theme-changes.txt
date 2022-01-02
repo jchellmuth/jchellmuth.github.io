@@ -22,3 +22,14 @@ robots: noindex
 This will lead to the following robots meta tag in the final html:
 
 For now, I am excluding my CV and cooking page incl. all recipe posts from search engines.
+
+Notes (from Jekyll website):
+Kramdown is the default Markdown renderer for Jekyll.
+By default, Jekyll uses the GitHub Flavored Markdown (GFM) processor for Kramdown.
+
+Parsers that do not support tables without headers
+... GitHub Flavoured Markdown ...
+
+Parsers that do support tables without headers: 
+... Kramdown: A parser in Ruby ...
+... Pandoc ... 

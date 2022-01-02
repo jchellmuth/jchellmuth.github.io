@@ -9,7 +9,21 @@ robots: noindex
 ---
 
 # Ingredients
-|Cabbage / Weißkohl / Spitzkohl|1|  
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+------------ | -------------
+  
+| A simple | table |
+| with multiple | lines|
+  
+| First cell | Second cell | Third cell|
+| First | Second | Third |
+  
+|Cabbage / Weißkohl / Spitzkohl |1 |
+|Cabbage / Weißkohl / Spitzkohl |1 |
 |Onions|2|
 |Sugar|5 Tbsp or 50 gr|
 |Salt|2 Tbsp|   
