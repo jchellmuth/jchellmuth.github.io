@@ -9,29 +9,16 @@ robots: noindex
 ---
 
 # Ingredients
-
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
------------- | -------------
   
-| A simple | table |
-| with multiple | lines|
-  
-| First cell | Second cell | Third cell|
-| First | Second | Third |
-  
-|Cabbage / Weißkohl / Spitzkohl |1 |
-|Cabbage / Weißkohl / Spitzkohl |1 |
+|Cabbage / Weißkohl / Spitzkohl |1|
 |Onions|2|
 |Sugar|5 Tbsp or 50 gr|
-|Salt|2 Tbsp|   
-|Pepper|to taste or 1 tsp|  
-|Olive oil|150 ml|  
-|Vinegar|300 ml|  
-|Carbonated water|700 ml|  
-
+|Salt|2 Tbsp|
+|Pepper|to taste or 1 tsp|
+|Olive oil|150 ml|
+|Vinegar|300 ml|
+|Carbonated water|700 ml|
+  
 # Notes
 * If possible, use shallots instead of regular onions.
 * The original recipe (CK/Brigitte) calls for the above liquid amounts which seems to assume a very large cabbage. For a small cabbage (especially Spitzkohl), use approx half. 
