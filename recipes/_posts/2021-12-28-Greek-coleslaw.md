@@ -2,7 +2,7 @@
 layout: post
 author: Johannes C Hellmuth
 title: Greek coleslaw (Griechischer Krautsalat)
-tags: seafood
+tags: salad burger 
 permalink: /greek-coleslaw/
 sitemap: false
 robots: noindex
