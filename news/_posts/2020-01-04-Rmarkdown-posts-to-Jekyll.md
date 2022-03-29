@@ -16,7 +16,7 @@ As a physician scientist working in basic cancer biology, I mainly use the R env
 
 Now, if you want to post your Rmarkdown code on your Github/Jekyll website, there are some small caveats that need to be addressed to make that work smoothly. Below, are two solutions depending on whether you want to upload html files or markdowns. The following steps and description assume you generate your content locally and then upload / push it your github repository.
 
-### Option 1: Uploading a complete / allinclusive html files
+### Option 1: Uploading a complete / allinclusive html file
 When you generate html files form an Rmarkdown, the plots/images that your code produces are all rendered into that html file. So, when you upload and post that html file to your github page, you don't need to specify any links or worry about paths to the images you want to display. The disadvantage, however, is that the html file won't contain any front matter and, more generally, changing / formatting the finished html file is more tedious than editing a markdown (at least for html rookies like me).
 The fix for the front matter issue is simple: open the html file in any editor and add something like to following front matter to the file:
 ``` {YAML}
@@ -55,16 +55,10 @@ Setting the following `knitr` options will
 knitr::opts_knit$set(base.dir = "/Users/jch/web/jchellmuth.github.io/", base.url = "/")
 knitr::opts_chunk$set(fig.path = "images/")
 ```
-After knitting, you should have your markdown (`.md`) in the `_posts` folder which is where I also keep the Rmarkdown (`.Rmd`). The images generated during that knit will be in your `images` folder. Feel free to check out my github website repository where I use this very setup to publish R code.
-<br />
-<br />
-**Push your post to github**<br />
-Assuming you are working on your Jekyll site and its content locally and have git set up, push the changes to your repository as usual:
-``` {bash}
-git add .
-git commit -m "new post"
-git push origin master
-```
+After knitting, you should have your markdown (`.md`) in the `_posts` folder which is where I also keep the Rmarkdown (`.Rmd`). The images generated during that knit will be in your `images` folder. Feel free to check out one of my Rmarkdown-to-markdown posts where I use this very setup to publish R code, e.g.:
+https://raw.githubusercontent.com/jchellmuth/jchellmuth.github.io/master/news/_posts/2020-01-03-3C-arc-plot.Rmd
+https://raw.githubusercontent.com/jchellmuth/jchellmuth.github.io/master/news/_posts/2020-01-03-3C-arc-plot.md
+
 <br />
 <br />
 Please feel free to email me with any questions, comments or suggestions and I'll be happy to post them here.
