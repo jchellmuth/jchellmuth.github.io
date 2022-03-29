@@ -154,7 +154,7 @@ info at jchellmuth.com
 
 <br> <br> **Note:** a previous version (v1) of the tutorial (using
 earlier package versions) can be found
-[here.](%7B%%20link%20md/2020-01-07-FACS-analysis-with-R-v1.md%20%%7D)
+[here.]({% md/2020-01-07-FACS-analysis-with-R-v1.md %})
 
 
 ```{r, collapse=T}
