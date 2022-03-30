@@ -5,6 +5,7 @@ author: Johannes C Hellmuth
 categories: code ggplot visualization tutorial FACS
 permalink: /posts/FACS-with-R/
 image: /images/2020-01-07-Live-gate-facet-thumbnail.png
+description: Tutorial on flow cytometry analysis using R and the bioconductor packages ggcyto and flowCore.
 output:
   md_document:
     variant: markdown_github
