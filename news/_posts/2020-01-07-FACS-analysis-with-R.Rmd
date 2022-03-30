@@ -4,6 +4,7 @@ title: Analyzing high-throughput FACS assays with R
 author: Johannes C Hellmuth
 categories: code ggplot visualization tutorial FACS
 permalink: /posts/FACS-with-R/
+image: /images/2020-01-07-Live-gate-facet-thumbnail.png
 output:
   md_document:
     variant: markdown_github
@@ -14,7 +15,7 @@ Notes on displaying tables and output:
 * when using kable, there is no direct option to remove the header. Therefore, to remove header, you habe to edit the markdown (.md) file (remove first line of table)
 * if you want to show a list with kable (for nicer rendering), you can convert list to matrix and then kable like this: colnames(fs) %>% matrix(nrow = 3) %>% kable
 -->
-**Note:** Updated March 28, 2022 to reflect updated packages.
+**Note:** Updated March 28, 2022 to reflect updated packages. Previous tutorial version (v1) is [here.]({% md/2020-01-07-FACS-analysis-with-R-v1.md %})
 {: style="color:gray; font-size: 90%;"}
 
 ```{r setup, include=FALSE}
@@ -57,7 +58,7 @@ pData(fs)[1:3,]
 The default channel names on most FACS machines are useless and changing them there is often tedious. On our BD FACS Canto II, for example, the [405|450/50] channel is named "FITC.A" and the [488|530/30] is named "Pacific.Blue.A" - irrespective of the fluorphore you are actually reading.
 Below is a quick and simple way to change the channel names for the entire flowSet. This makes coding easier and will result in proper axis labels in your plots.
 ```{r, message=F, warning=F, collapse=T}
-colnames(fs) 
+colnames(fs)
 colnames(fs)[colnames(fs)=="FITC.A"] <- "GFP"
 colnames(fs)[colnames(fs)=="Pacific.Blue.A"] <- "BFP"
 ```
@@ -149,19 +150,17 @@ me with any questions, comments or suggestions and I’ll be happy to post
 them here.  
 info at jchellmuth.com
 {: style="color:darkblue; font-size: 120%; text-align: center;"}
-
+Test text
+{: style="color:gray; font-size: 80%; text-align: center;"}
 ---
 
-<br> <br> **Note:** a previous version (v1) of the tutorial (using
-earlier package versions) can be found
-[here.]({% md/2020-01-07-FACS-analysis-with-R-v1.md %})
 
 
 ```{r, collapse=T}
 sessionInfo()
 ```
 
-```{r, 2020-01-07-GFP-gate-facet-thumbnail, fig.width=14,fig.height=8, include=F, eval=F}
+```{r, fig.width=14, fig.height=8, include=F, eval=F}
 ggcyto(gs[1:9],aes(x=FSC.A,y=SSC.A),subset="Singlets")+geom_hex(bins = 100)+geom_gate("Live")+
   geom_stats(adjust = 0.8)+ggcyto_par_set(limits = "instrument")+
   facet_wrap(~well,ncol = 3)

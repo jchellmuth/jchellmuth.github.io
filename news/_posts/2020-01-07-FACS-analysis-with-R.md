@@ -4,6 +4,7 @@ title: Analyzing high-throughput FACS assays with R
 author: Johannes C Hellmuth
 categories: code ggplot visualization tutorial FACS
 permalink: /posts/FACS-with-R/
+image: /images/2020-01-07-Live-gate-facet-thumbnail.png
 output:
   md_document:
     variant: markdown_github
@@ -15,7 +16,8 @@ Notes on displaying tables and output:
 * when using kable, there is no direct option to remove the header. Therefore, to remove header, you habe to edit the markdown (.md) file (remove first line of table)
 * if you want to show a list with kable (for nicer rendering), you can convert list to matrix and then kable like this: colnames(fs) %>% matrix(nrow = 3) %>% kable
 -->
-**Note:** Updated March 28, 2022 to reflect updated packages.  
+
+**Note:** Updated March 28, 2022 to reflect updated packages. Previous tutorial version is [here.]({% link md/2020-01-07-FACS-analysis-with-R-v1.md %})
 {: style="color:gray; font-size: 90%;"}
 
 ## Introduction
@@ -97,7 +99,7 @@ the entire flowSet. This makes coding easier and will result in proper
 axis labels in your plots.
 
 ``` r
-colnames(fs) 
+colnames(fs)
 ## [1] "FSC.A"          "FSC.H"          "FSC.W"          "SSC.A"         
 ## [5] "SSC.H"          "SSC.W"          "FITC.A"         "Pacific.Blue.A"
 ## [9] "Time"
@@ -265,13 +267,12 @@ I hope this tutorial was useful to you. Please feel free to email
 me with any questions, comments or suggestions and I’ll be happy to post
 them here.  
 info at jchellmuth.com
-{: style="color:darkblue; font-size: 110%; text-align: center;"}
+{: style="color:darkblue; font-size: 120%; text-align: center;"}
 
 ------------------------------------------------------------------------
 
-<br> <br> **Note:** a previous version (v1) of the tutorial (using
-earlier package versions) can be found
-[here.]({% link md/2020-01-07-FACS-analysis-with-R-v1.md %})
+<br>
+<br>
 
 ``` r
 sessionInfo()
