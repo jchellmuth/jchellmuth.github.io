@@ -93,8 +93,8 @@ pData(fs)[1:3,]
 
 The default channel names on most FACS machines are useless and changing
 them there is often tedious. On our BD FACS Canto II, for example, the
-\[405\|450/50\] channel is named “FITC.A” and the \[488\|530/30\] is
-named “Pacific.Blue.A” - irrespective of the fluorphore you are actually
+\[405\|450/50\] channel is named “Pacific.Blue.A” and the \[488\|530/30\] is
+named “FITC.A” - irrespective of the fluorphore you are actually
 reading. Below is a quick and simple way to change the channel names for
 the entire flowSet. This makes coding easier and will result in proper
 axis labels in your plots.
