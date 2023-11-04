@@ -31,6 +31,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 header_pages:
   - pages/code.md
@@ -38,7 +39,7 @@ header_pages:
 
 exclude: ["_drafts","*.Rmd"]
 
-# exclude CV from sitemap to avoid google searchability
+# exclude these from sitemap to avoid google searchability
 defaults:
   -
     scope:

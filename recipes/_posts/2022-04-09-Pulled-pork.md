@@ -24,21 +24,21 @@ robots: noindex
 
 **FOR BARBECUE SAUCE**
 
-| Apples | 10 |
-| Brown sugar | 150-200g (or, to taste) |  
-| Cinnamon | 1 tsp |  
-| Flour | 1 Tbsp |  
-| Salt | pinch |  
-| Bourbon | to taste |  
-| Lemon juice | optional (to avoid brwoning)|  
+| Ketchup | 1.5 cups |
+| Brown sugar | 0.25 cups |  
+| Molasses | 1 Tbsp |  
+| garlic cloves | 2, minced |  
+| cider vinegar | cide vinegar |  
+| Worcestershire sauce | 2 Tbsp |  
+| Sweet or hot paprika | 2 tsp |  
+| Mustard powder | 1 tsp |  
+| Cayenne | pinch |  
 
-# Notes
-* use old-fashioned oats (in Germany: 'kernig')
 
 # Preparation
 * toast coriander, cumin and peppercorns until fragrant (1 to 2 minutes in a dry, small skillet over medium-low heat)
 * grind toasted spices into a fine powder (spice grinder or mortar and pestle)
 * mix with salt, mustard powder, chile powder
 * massage meat generously with spice rub and let meat rest (for 1-2 hours at RT or refrigerate overnight)
-* 
 * cook on high pressure for one hour. Turn off the pressure cooker and allow the pressure to release naturally for 15 minutes.
+* For the barbecue sauce: combine ingredients and simmer for 15min / until sauce deepens in color. Add to meat and toss to coat. 

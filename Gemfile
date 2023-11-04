@@ -35,3 +35,6 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 # add sitemap plugin
 gem 'jekyll-sitemap'
+
+# add jekyll-redirect-from
+gem 'jekyll-redirect-from'
