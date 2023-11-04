@@ -1,5 +1,5 @@
 ---
-permalink: /orcid/
+permalink: /ncbi
 redirect_to:
-  - https://orcid.org/0000-0001-8409-3037
+  - https://www.ncbi.nlm.nih.gov/myncbi/1pUmA1takio5y/bibliography/public/
 ---
